@@ -5,6 +5,10 @@ George Brown College - Fall 2026
 **Student:** Junyong Choi
 **Student ID:** 101539862
 
+## GitHub Repository
+
+https://github.com/Junyong0619/comp3123-labs
+
 ## Lab Exercise 1 - JavaScript Refresher
 
 Location: [`labs/lab1/`](labs/lab1/)
