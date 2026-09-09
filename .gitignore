@@ -1,0 +1,11 @@
+# Submission artifacts (uploaded to D2L, not tracked here)
+labs/submission_lab1/
+*.zip
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Node
+node_modules/
