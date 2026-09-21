@@ -53,3 +53,49 @@ Straight angle
 12
 12
 ```
+
+## Lab Exercise 2 - ES6 Practice
+
+Location: [`labs/lab2/`](labs/lab2/)
+
+| File | Description |
+|---|---|
+| `lab2_exercises.js` | Lab 2 exercise solutions (Exercises 1-6) |
+| `lab2_array_methods.js` | In-class practice: `filter()`, `map()`, `reduce()` |
+| `lab2_promise.js` | In-class practice: creating and awaiting a Promise |
+| `lab2_fetch_3rd_party.js` | In-class practice: `fetch()` from a third-party API |
+| `lab2_promise.html` | HTML page that loads the in-class scripts |
+
+### Exercises solved
+
+| # | Problem | ES6 feature |
+|---|---|---|
+| 1 | Rewrite `gretter()` in ES6 | `const`, arrow function, template literal, `for...of` |
+| 2 | `capitalize(str)` - upper-case the first letter | destructuring + spread |
+| 3 | Capitalize every colour in an array | `Array.prototype.map` |
+| 4 | Keep only values less than 20 | `Array.prototype.filter` |
+| 5 | Sum and product of an array | `Array.prototype.reduce` |
+| 6 | `Car` class and `Sedan` subclass | `class`, `extends`, `super` |
+
+### How to run
+
+```bash
+cd labs/lab2
+node lab2_exercises.js
+```
+
+Expected output:
+
+```
+Hello Randy Savage
+Hello Ric Flair
+Hello Hulk Hogan
+Foobar
+Nodejs
+[ 'Red', 'Green', 'Blue' ]
+[ 1, 5 ]
+10
+24
+Model: Pontiac Firebird Engine 1976
+Volvo SD has a balance of $30000.00
+```
