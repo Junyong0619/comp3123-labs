@@ -9,3 +9,7 @@ Thumbs.db
 
 # Node
 node_modules/
+
+# Postman workspace files
+.postman/
+postman/

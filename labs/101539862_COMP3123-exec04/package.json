@@ -1,0 +1,20 @@
+{
+  "name": "101539862_COMP3123-exec04",
+  "version": "1.0.0",
+  "description": "COMP3123 exec04 - Express JS routes (query, params, body) and static middleware",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Junyong Choi",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.22.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
