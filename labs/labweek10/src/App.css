@@ -1,0 +1,57 @@
+.App {
+  max-width: 480px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.entry-form{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.entry-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+
+.entry-form input {
+  margin-top: 4px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.entry-form button {
+  margin-top: 8px;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #282c34;
+}
+
+
+.result {
+  margin-top: 24px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 8px;
+}
+
+.result p {
+  margin: 4px 0;
+  font-weight: bold;
+}
+
+.result .value {
+  margin-bottom: 12px;
+  font-weight: normal;
+}
